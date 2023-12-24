@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url("../fonts/HelveticaNeue-Bold-02.ttf") format("truetype");
+    font-style: Bold;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "MortalClaws";
+    src: url("../fonts/MortalClaws-8MYRg.ttf") format("truetype");
+    font-weight: 400;
+    line-height: normal;
+}
+
+@font-face {
+    font-family: "Wremena";
+    src: url("../fonts/Wremena-Regular.otf") format("otf");
+    font-weight: 400;
+    line-height: normal;
+}

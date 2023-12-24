@@ -1,0 +1,150 @@
+/* tablet */
+@media screen and (max-width: 768px) and (min-width: 415px) {
+    
+    .second_red_top_history {
+        display: none;
+    }
+
+    .heroh1{
+        font-size: calc(6em + 20vw);
+    }
+
+    .first{
+        width: 100vw;
+        height: 640px;
+        overflow: hidden;
+    }
+
+    .second_yellow{
+        width: 390px;
+    }
+    
+    .second_red_top{
+        height: 337px;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-shrink: 0;
+        overflow: hidden;
+    }
+
+    .founders{
+        width: calc(88vw + 200px);
+    }
+
+    .second_red_top_qubes_double{
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+        width: 100%;
+    }
+
+    .helmetimg{
+        color: #000;
+    }
+    
+    .helmet_10{
+        /* opacity: 0%; */
+        width: 500px;
+    }
+    
+    /* .helmet_10:hover{
+        opacity: 100%;
+    } */
+
+    .helvet_surprise{
+        width: 100vw;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .surprise_a{
+        /* animation: surprise_a_a 6s linear infinite; */
+        display: flex;
+        align-items: flex-start;
+        margin-left: -776vw;
+        overflow: hidden;
+
+    }
+
+    .second_red_top_qubes {
+        width: 40px;
+        border-radius: 12px;
+    }
+
+    .second_red_top_tripple{
+        width: 100%;
+    }
+    .second_red_top_qubes_down{
+        width: 100%;
+    }
+
+    .hero_letter{
+        display: flex;
+        width: 100vw;
+        height: 640px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        position: absolute;
+    }
+
+    .small_hero_text{
+        display: flex;
+        padding: 30px 10px 10px 10px;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 600px;
+        position: absolute;
+        width: calc(100vw - 20px);
+    }
+    
+    .small_hero_text_left{
+        display: flex;
+        text-align: left;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .small_hero_text_center{
+        display: flex;
+        width: 308px;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    
+    .small_hero_text_center_bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .small_hero_text_center_bottom_bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .small_hero_text_center_bottom_bottom_fashion-house{
+        display: flex;
+        width: 308px;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .small_hero_text_right{
+        display: flex;
+        text-align: right;
+        height: 600px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+}

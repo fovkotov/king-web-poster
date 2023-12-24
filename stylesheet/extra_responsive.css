@@ -1,0 +1,137 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* up to phone  */
+@media screen and (min-width: 415px) {
+    
+    .second{
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+        height: 845px;
+        width: 100vw;
+    }
+ 
+
+    .fourth_block_footer{
+        width: 100vw;
+        position: absolute;
+        height: 2740px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;  
+    }
+
+    .fourth_block_img{
+        width: 100vw;
+        height: 2740px;
+    }
+
+    .small_footer_text_left{
+        display: flex;
+        text-align: left;
+        height: 33vw;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .small_footer_text_center{
+        display: flex;
+        width: 308px;
+        height: 33vw;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-shrink: 0;
+    }
+    
+    .small_footer_text_right{
+        display: flex;
+        text-align: right;
+        height: 33vw;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    img.fourth_block_footer_letter_img{
+        height: 33vw;
+        width: 100vw;
+    }
+    
+    img.fourth_block_footer_letter_img_vert{
+        display: none;
+    }
+
+    .second_red_top_qubes{
+        overflow: hidden;
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+        width: 107px;
+        height: 425px;
+        border-radius: 12px;
+    }    
+
+    .second_red_bottom{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 31px;
+        background-color: #FF0000;
+    }
+
+    .test{
+        width: calc(100vw - 10px);
+        padding-left: 10px;
+        height: 640px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .box_left{
+        position: relative;
+        width: 100%;
+        height: 600px;
+        transform-style: preserve-3d;
+        margin-top: 20px;
+        position: absolute;
+        inset: 0;
+        margin-left: 20vw;
+    }
+}
+
+
+/* первые попытки */
+@media screen and (min-width: 1441px) {
+    
+    /* адаптивность красного контейнера во втором блоке */
+    .second_red{
+        width: calc(100vw - 640px);
+    }
+
+    .sheilds{
+        width: 97%;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    h1.hero{
+        font-size: 522px;
+    }
+}
+
