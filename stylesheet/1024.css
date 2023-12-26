@@ -45,7 +45,7 @@
     }
 
     .surprise_a{
-        /* animation: surprise_a_a 6s linear infinite; */
+        animation: surprise_a_a 6s linear infinite;
         display: flex;
         align-items: flex-start;
         margin-left: -70vw;
