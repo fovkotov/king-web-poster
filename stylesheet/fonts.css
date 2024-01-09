@@ -1,7 +1,7 @@
 @font-face {
-    font-family: "Helvetica";
-    src: url("../fonts/HelveticaNeue-Bold-02.ttf") format("truetype");
-    font-style: Bold;
+    font-family: 'Helvetica';
+    src: url('../fonts/HelveticaNeue-Bold-02.woff2') format('woff2');
+    font-style: bold;
     font-weight: 800;
 }
 
